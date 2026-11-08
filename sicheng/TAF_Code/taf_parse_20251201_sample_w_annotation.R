@@ -46,7 +46,7 @@ root <- "D:/r_projects/research/TAF_Parse"  # change to your path
 keep_stations <- c("KDFW", "KDAL") # optional
 start_utc <- ymd_hms("2025-12-01 00:00:00", tz = "UTC") # Need to install lubridate library
 end_utc   <- ymd_hms("2025-12-01 23:59:59", tz = "UTC")
-taf_parsed_dir <- "Output_TAF_DiversionEvent/taf_20251201_00Z_parsed.csv"
+taf_parsed_dir <- "Output_TAF_DiversionEvent/taf_20251201_parsed.csv"
 
 
 # =============================================================================
